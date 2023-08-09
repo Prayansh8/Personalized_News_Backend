@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "Personalized_News_Backend",
+    "builds": [
+       { "src": "src/app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
